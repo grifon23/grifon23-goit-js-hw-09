@@ -1,16 +1,16 @@
 {
-  "name": "grifon23-goit-js-hw-09",
+  "name": "goit-js-hw-09",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "homepage": "https://grifon23.github.io/grifon23-goit-js-hw-09/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /grifon23-goit-js-hw-09/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-09/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grifon23/goit-js-hw-09.git"
+    "url": "git+https:github.com/grifon23/grifon23-goit-js-hw-09"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
@@ -24,5 +24,9 @@
     "parcel-plugin-nuke-dist": "^1.0.1",
     "posthtml-include": "^1.6.2",
     "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.9",
+    "notiflix": "^3.2.2"
   }
 }
